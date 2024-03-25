@@ -1,0 +1,15 @@
+<!-- /apps/vertisproject/components/megamenu/megamenu.html -->
+
+
+<div data-sly-use.myModel="com.vertismaven.core.models.MegaMenuNavigation" class="megamenu">
+    <ul class="menu">
+        <li class="menu-item" data-sly-repeat="${properties.menuItems}">
+            <a href="${item.link}" class="menu-link">${item.title}</a>
+            <ul class="submenu" data-sly-list.submenuItems="${item.submenuItems}">
+                <li class="submenu-item">
+                    <a href="${submenuItem.link}" class="submenu-link">${submenuItem.title}</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>

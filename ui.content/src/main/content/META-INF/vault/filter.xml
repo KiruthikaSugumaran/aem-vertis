@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/vertismavenproject" mode="merge"/>
+    <filter root="/content/vertismavenproject" mode="merge"/>
+    <filter root="/content/dam/vertismavenproject" mode="merge"/>
+    <filter root="/content/experience-fragments/vertismavenproject" mode="merge"/>
+</workspaceFilter>
